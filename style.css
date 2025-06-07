@@ -1,0 +1,34 @@
+/*
+  Arquivo de estilos customizados para o projeto Minimercado.
+  Fase 2 - Fundamentos de Sistemas Web
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para o carrossel ter uma altura máxima e não dominar a página */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
+
+/* Estiliza os fieldsets para melhor organização do formulário */
+fieldset {
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0d6efd; /* Azul primário do Bootstrap */
+}
+
+/* Relógio dinâmico no cabeçalho */
+#relogio-dinamico {
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
