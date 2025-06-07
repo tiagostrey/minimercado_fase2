@@ -1,18 +1,48 @@
 /*
-  Arquivo de scripts para o projeto Minimercado.
+  Arquivo de estilos customizados para o projeto Minimercado.
+  Versão Final - Modelo Híbrido
 */
-function atualizarRelogio() {
-    const elementoRelogio = document.getElementById('relogio-dinamico');
-    if (elementoRelogio) {
-        const agora = new Date();
-        const horas = String(agora.getHours()).padStart(2, '0');
-        const minutos = String(agora.getMinutes()).padStart(2, '0');
-        const segundos = String(agora.getSeconds()).padStart(2, '0');
-        elementoRelogio.textContent = `${horas}:${minutos}:${segundos}`;
-    }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    setInterval(atualizarRelogio, 1000);
-    atualizarRelogio();
-});
+/* Nova cor verde personalizada para o cabeçalho e rodapé */
+.bg-custom-green {
+    background-color: #2a5d34; /* Tom de verde escuro inspirado no logo */
+}
+
+/* Estilo para a imagem do logo no cabeçalho */
+.logo-navbar {
+    height: 40px; /* Você pode ajustar essa altura se achar necessário */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos de outras seções */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+fieldset {
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+#relogio-dinamico {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    #relogio-dinamico {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
