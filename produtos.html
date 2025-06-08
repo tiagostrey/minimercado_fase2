@@ -9,32 +9,31 @@
 </head>
 <body>
 
-    <header class="bg-custom-green text-white text-center p-3">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom-green">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/minimercado_logo.png" alt="Logo Minimercado PUCRS" class="logo-navbar">
-                </a>
-                <div id="relogio-dinamico" class="text-white"></div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-                        <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços e Agendamento</a></li>
-                    </ul>
-                </div>
+    <header class="bg-custom-green">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand fs-4" href="index.html">Minimercado PUCRS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro e Agendamento</a></li>
+                </ul>
             </div>
         </nav>
     </header>
 
-    <main class="container mt-4">
+    <main class="container mt-5">
         <h2 class="text-center mb-4">Nossos Produtos</h2>
+
+        <h3 class="mt-5">Frutas e Verduras</h3>
+        <hr>
         <div class="row">
             <div class="col-md-4 mb-3">
-                <div class="card h-100">
+                <div class="card">
                     <img src="img/banana-prata.jpg" class="card-img-top" alt="Cacho de bananas prata.">
                     <div class="card-body">
                         <h5 class="card-title">Banana Prata</h5>
@@ -44,7 +43,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3">
-                <div class="card h-100">
+                <div class="card">
                     <img src="img/maca-gala.jpg" class="card-img-top" alt="Maçãs Gala vermelhas.">
                     <div class="card-body">
                         <h5 class="card-title">Maçã Gala</h5>
@@ -53,8 +52,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <h3 class="mt-5">Alimentícios Não Perecíveis</h3>
+        <hr>
+        <div class="row">
             <div class="col-md-4 mb-3">
-                <div class="card h-100">
+                <div class="card">
                      <img src="img/arroz-parbo.jpg" class="card-img-top" alt="Pacote de arroz parboilizado de 5kg.">
                     <div class="card-body">
                         <h5 class="card-title">Arroz Parboilizado</h5>
@@ -64,7 +68,7 @@
                 </div>
             </div>
              <div class="col-md-4 mb-3">
-                <div class="card h-100">
+                <div class="card">
                      <img src="img/feijao-vermelho.jpg" class="card-img-top" alt="Pacote de feijão vermelho de 1kg.">
                     <div class="card-body">
                         <h5 class="card-title">Feijão Vermelho</h5>
@@ -73,8 +77,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <h3 class="mt-5">Higiene e Limpeza</h3>
+        <hr>
+        <div class="row">
             <div class="col-md-4 mb-3">
-                <div class="card h-100">
+                <div class="card">
                     <img src="img/papel-higienico.jpg" class="card-img-top" alt="Pacote de papel higiênico.">
                     <div class="card-body">
                         <h5 class="card-title">Papel Higiênico</h5>
@@ -84,7 +93,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3">
-                <div class="card h-100">
+                <div class="card">
                      <img src="img/sabao-barra.jpg" class="card-img-top" alt="Barra de sabão neutro.">
                     <div class="card-body">
                         <h5 class="card-title">Sabão em Barra</h5>
@@ -97,7 +106,7 @@
     </main>
 
     <footer class="bg-custom-green text-white text-center p-4 mt-5">
-        <p>Desenvolvido por: Tiago Francisco Strey</p>
+        <p class="mb-0">Desenvolvido por: Tiago Francisco Strey</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
