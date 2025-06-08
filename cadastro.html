@@ -37,8 +37,47 @@
                         <input type="text" id="nome" class="form-control" placeholder="Digite seu nome completo" required>
                     </div>
                     <div class="mb-3">
+                        <label for="endereco" class="form-label">Endereço Completo:</label>
+                        <input type="text" id="endereco" class="form-control" placeholder="Rua, Nº, Bairro, Cidade - Estado" required>
+                    </div>
+                    <div class="mb-3">
                         <label for="cpf" class="form-label">CPF:</label>
                         <input type="text" id="cpf" class="form-control" placeholder="123.456.789-00" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" id="email" class="form-control" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                     <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="tel" id="telefone" class="form-control" placeholder="(51) 99999-8888" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Sexo:</label><br>
+                        <input type="radio" id="masc" name="sexo" value="M" class="form-check-input">
+                        <label for="masc" class="form-check-label">Masculino</label>
+                        <input type="radio" id="fem" name="sexo" value="F" class="form-check-input ms-3">
+                        <label for="fem" class="form-check-label">Feminino</label>
+                    </div>
+                </fieldset>
+                
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="receber-novidades" checked>
+                    <label class="form-check-label" for="receber-novidades">
+                        Desejo receber novidades e promoções por e-mail.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 mt-3 btn-lg">Finalizar Cadastro</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-custom-green text-white text-center p-4 mt-5">
+        <p class="mb-0">Desenvolvido por: Tiago Francisco Strey</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
