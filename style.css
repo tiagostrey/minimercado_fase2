@@ -12,12 +12,6 @@ body {
     background-color: #2a5d34; 
 }
 
-/* Estilo para a imagem do logo na barra de navegação */
-.logo-navbar {
-    height: 40px; 
-    width: auto; 
-}
-
 /* Estilos para os cards de produtos e outros elementos */
 .card {
     height: 100%;
