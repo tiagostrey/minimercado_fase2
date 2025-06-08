@@ -1,24 +1,28 @@
 /*
   Arquivo de estilos customizados para o projeto Minimercado.
-  Versão Final - Modelo Híbrido
+  Baseado nas novas regras.
 */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Nova cor verde personalizada para o cabeçalho e rodapé */
+/* Cor verde personalizada, inspirada no logo */
 .bg-custom-green {
-    background-color: #2a5d34; /* Tom de verde escuro inspirado no logo */
+    background-color: #2a5d34; 
 }
 
-/* Estilo para a imagem do logo no cabeçalho */
+/* Estilo para a imagem do logo na barra de navegação */
 .logo-navbar {
-    height: 40px; /* Você pode ajustar essa altura se achar necessário */
-    width: auto; /* Mantém a proporção da imagem */
+    height: 40px; 
+    width: auto; 
 }
 
-/* Estilos de outras seções */
+/* Estilos para os cards de produtos e outros elementos */
+.card {
+    height: 100%;
+}
+
 .carousel-item img {
     max-height: 400px;
     object-fit: cover;
@@ -32,17 +36,4 @@ legend {
     font-size: 1.2rem;
     font-weight: bold;
     color: #0d6efd;
-}
-
-#relogio-dinamico {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
-@media (min-width: 992px) {
-    #relogio-dinamico {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
 }
