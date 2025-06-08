@@ -31,3 +31,17 @@ legend {
     font-weight: bold;
     color: #0d6efd;
 }
+
+/* Estilo para o botão personalizado */
+.btn-custom-green {
+    background-color: #2a5d34;
+    border-color: #2a5d34;
+    color: white;
+}
+
+/* Efeito ao passar o mouse por cima */
+.btn-custom-green:hover {
+    background-color: #1E4D2B; /* Um tom um pouco mais escuro */
+    border-color: #1E4D2B;
+    color: white;
+}
