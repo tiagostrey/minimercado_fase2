@@ -9,28 +9,28 @@
 </head>
 <body>
 
-    <header class="bg-custom-green text-white text-center p-3">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom-green">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/minimercado_logo.png" alt="Logo Minimercado PUCRS" class="logo-navbar">
-                </a>
-                <div id="relogio-dinamico" class="text-white"></div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-                        <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços e Agendamento</a></li>
-                    </ul>
-                </div>
+    <header class="bg-custom-green">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/minimercado_logo.png" alt="Logo Minimercado PUCRS" class="logo-navbar">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro e Agendamento</a></li>
+                </ul>
             </div>
         </nav>
     </header>
 
-    <section id="destaques">
+    <section>
         <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -47,7 +47,7 @@
         <h1>Bem-vindo ao Minimercado PUCRS!</h1>
         <p class="lead">Qualidade e variedade perto de você. Explore nossos produtos e serviços.</p>
         <div class="row mt-5">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Nossos Produtos</h5>
@@ -56,12 +56,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
                  <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Nossos Serviços</h5>
-                        <p class="card-text">Agende a retirada na loja ou receba suas compras em casa.</p>
-                        <a href="servicos.html" class="btn btn-secondary">Agendar Agora</a>
+                        <p class="card-text">Conheça nossas opções de entrega e retirada.</p>
+                        <a href="servicos.html" class="btn btn-secondary">Conhecer Serviços</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
     </main>
 
     <footer class="bg-custom-green text-white text-center p-4 mt-5">
-        <p>Desenvolvido por: Tiago Francisco Strey</p>
+        <p class="mb-0">Desenvolvido por: Tiago Francisco Strey</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
