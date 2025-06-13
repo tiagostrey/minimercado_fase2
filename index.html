@@ -28,14 +28,45 @@
 
     <section>
         <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselDestaques" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselDestaques" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselDestaques" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselDestaques" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselDestaques" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselDestaques" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://via.placeholder.com/1200x400/28a745/ffffff?text=Frutas+e+Verduras+Frescas" class="d-block w-100" alt="Banner de promoção de frutas e verduras.">
+                    <img src="img/banana-prata.jpg" class="d-block w-100" alt="Banner do produto Banana Prata.">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://via.placeholder.com/1200x400/ffc107/000000?text=Mercearia+Completa" class="d-block w-100" alt="Banner de promoção de itens de mercearia.">
+                    <img src="img/maca-gala.jpg" class="d-block w-100" alt="Banner do produto Maçã Gala.">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/arroz-parbo.jpg" class="d-block w-100" alt="Banner do produto Arroz Parboilizado.">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/feijao-vermelho.jpg" class="d-block w-100" alt="Banner do produto Feijão Vermelho.">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/papel-higienico.jpg" class="d-block w-100" alt="Banner do produto Papel Higiênico.">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/sabao-barra.jpg" class="d-block w-100" alt="Banner do produto Sabão de Glicerina.">
                 </div>
             </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
@@ -48,7 +79,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Nossos Produtos</h5>
                         <p class="card-text">Veja nossa seleção completa de produtos frescos e de mercearia.</p>
-                        <a href="produtos.html" class="btn btn-primary">Ver todos os produtos</a>
+                        <a href="produtos.html" class="btn btn-custom-green">Ver todos os produtos</a>
                     </div>
                 </div>
             </div>
@@ -57,15 +88,61 @@
                     <div class="card-body">
                         <h5 class="card-title">Nossos Serviços</h5>
                         <p class="card-text">Conheça nossas opções de entrega e retirada.</p>
-                        <a href="servicos.html" class="btn btn-secondary">Conhecer Serviços</a>
+                        <a href="servicos.html" class="btn btn-custom-green">Conhecer Serviços</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="bg-custom-green text-white text-center p-4 mt-5">
-        <p class="mb-0">Desenvolvido por: Tiago Francisco Strey</p>
+    <footer class="bg-custom-green text-white text-center text-md-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Minimercado PUCRS</h5>
+                    <p>
+                        Qualidade e variedade perto de você, com o melhor atendimento da região.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Navegação</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="index.html" class="text-white">Início</a>
+                        </li>
+                        <li>
+                            <a href="produtos.html" class="text-white">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="servicos.html" class="text-white">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="cadastro.html" class="text-white">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="mb-1">Av. Ipiranga, 6681 - Porto Alegre, RS</p>
+                        </li>
+                        <li>
+                            <p class="mb-1">contato@minimercadopucrs.com</p>
+                        </li>
+                        <li>
+                            <p class="mb-1">(51) 3412-7856</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2025 Minimercado PUCRS | Desenvolvido por: Tiago Francisco Strey
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
