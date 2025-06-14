@@ -1,6 +1,7 @@
 # Minimercado PUCRS - Projeto de Fundamentos de Sistemas Web
 
-Este projeto foi desenvolvido como parte da avaliação da disciplina de Fundamentos de Sistemas Web do curso de Análise e Desenvolvimento de Sistemas da PUCRS Online. O objetivo é a criação de um site estático e responsivo para um minimercado fictício, aplicando conceitos de HTML, CSS e Bootstrap.
+Este projeto foi desenvolvido como parte da avaliação da disciplina de Fundamentos de Sistemas Web do curso de Análise e Desenvolvimento de Sistemas da PUCRS Online.
+O objetivo é a criação de um site para um minimercado fictício, aplicando conceitos de HTML, CSS e Bootstrap.
 
 **Aluno:** Tiago Francisco Strey
 
@@ -8,11 +9,11 @@ Este projeto foi desenvolvido como parte da avaliação da disciplina de Fundame
 
 ## Funcionalidades Implementadas
 
-O site é composto por diversas páginas que simulam a experiência de um e-commerce simples.
+O site é composto por algumas páginas que simulam a experiência do site solicitado.
 
 ### 1. Página Inicial (`index.html`)
-- **Carrossel de Destaques:** Um banner rotativo que exibe os principais produtos ou categorias da loja.
-- **Navegação Principal:** Cards que direcionam o usuário para as seções de Produtos e Serviços.
+- **Carrossel de Destaques:** Um banner rotativo que exibe produtos da loja.
+- **Navegação Principal:** Cards que direcionam o usuário para as seções de Produtos e de Serviços.
 
 ### 2. Página de Produtos (`produtos.html`)
 - **Catálogo de Produtos:** Exibe 6 produtos de exemplo, divididos em 3 categorias:
