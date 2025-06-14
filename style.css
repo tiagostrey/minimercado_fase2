@@ -1,87 +1,89 @@
-/*
-  Arquivo de estilos customizados para o projeto Minimercado.
-  Baseado nas novas regras.
-*/
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Cor verde personalizada, inspirada no logo */
+/* --- ESTRUTURA E CORES --- */
+
+/* Cor verde personalizada, utilizada como padrão no site */
 .bg-custom-green {
     background-color: #2a5d34; 
 }
 
-/* Estilos para os cards de produtos e outros elementos */
+/* Padrão de altura dos cards */
 .card {
     height: 100%;
 }
 
-.carousel-item img {
-    max-height: 400px;
+/* Estilo dos links dentro do rodapé */
+footer a.text-white:hover {
+    text-decoration: underline;
+}
+
+/* Tamanho fixo para as imagens dos produtos na página 'produtos.html' */
+.product-card-img {
+    height: 180px;
     object-fit: contain;
 }
 
+/* --- COMPONENTES BOOTSTRAP --- */
+
+/* Carrossel da página inicial */
+.carousel-item img {
+    max-height: 400px;      /* Define uma altura máxima para a imagem do banner */
+    object-fit: contain; /* Garante que a imagem inteira apareça, sem cortes */
+}
+
+/* Cor dos indicadores de item do carrossel */
+.carousel-indicators [data-bs-target] {
+    background-color: #2a5d34;
+}
+
+/* Cor da seta de navegação "anterior" do carrossel */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%232a5d34'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+/* Cor da seta de navegação "próximo" do carrossel */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%232a5d34'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* --- FORMULÁRIOS --- */
+
+/* Borda arredondada para os campos do formulário */
 fieldset {
     border-radius: 8px;
 }
 
+/* Título de cada campo */
 legend {
     font-size: 1.2rem;
     font-weight: bold;
     color: #2a5d34;
 }
 
-/* Estilo para o botão personalizado */
+/* Botão na cor padrão do site */
 .btn-custom-green {
     background-color: #2a5d34;
     border-color: #2a5d34;
     color: white;
 }
 
-/* Efeito ao passar o mouse por cima */
+/* Efeito no botão ao passar o mouse por cima, em tom de verde mais claro */
 .btn-custom-green:hover {
-    background-color: #3e8e41; /* Um tom de verde um pouco MAIS CLARO */
+    background-color: #3e8e41;
     border-color: #3e8e41;
     color: white;
 }
 
-/* Altera a cor do checkbox quando ele está marcado */
+/* Cor do checkbox quando ele está selecionado */
 .form-check-input:checked {
     background-color: #2a5d34;
     border-color: #2a5d34;
 }
 
-/* Muda a cor do "brilho" de foco do checkbox para verde */
+/* Cor da "sombra" do checkbox */
 .form-check-input:focus {
     border-color: #2a5d34;
     box-shadow: 0 0 0 0.25rem rgba(42, 93, 52, 0.25);
-}
-
-/* Define um tamanho fixo para as imagens dos cards de produto */
-.product-card-img {
-    height: 180px; /* Altura fixa para a imagem */
-    object-fit: contain; /* ALTERADO: Garante que a imagem inteira apareça, sem cortes */
-}
-
-/* --- NOVOS ESTILOS PARA OS CONTROLES DO CARROSSEL --- */
-
-/* Altera a cor dos indicadores (as "bolinhas") para verde */
-.carousel-indicators [data-bs-target] {
-    background-color: #2a5d34;
-}
-
-/* Altera a cor das setas de navegação (ícone de "anterior") para verde */
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%232a5d34'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-}
-
-/* Este código corrige a cor da seta da DIREITA do carrossel */
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%232a5d34'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
-
-/* Estiliza os links dentro do rodapé */
-footer a.text-white:hover {
-    text-decoration: underline;
 }
